@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "watch": "tsc -w",
     "dev": "yarn nodemon .\\dist\\index.js",
-    "build":"tsc",
-    "start":"node .\\dist\\index.js"
-
+    "build": "tsc",
+    "start": "node .\\dist\\index.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -23,5 +25,8 @@
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
-  }
+  },
+  "repository": "https://github.com/VoronkoIllia/backend-app.git",
+  "author": "VoronkoIllia <ilyhavoronko@gmail.com>",
+  "private": false
 }
